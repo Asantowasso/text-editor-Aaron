@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "An application to edit text",
   "main": "server.js",
+
+  "engines":{
+    "node":"16.17.1",
+    "npm": "8.19.3"
+  },
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "npm run build && cd server && node server.js",
@@ -21,6 +26,7 @@
   "devDependencies": {
     "concurrently": "^5.2.0",
     "nodemon": "^2.0.4",
-    "webpack": "^5.75.0"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
