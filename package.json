@@ -17,7 +17,7 @@
     "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "Asantowasso",
+  "author": "AaronS",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
