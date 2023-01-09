@@ -1,7 +1,7 @@
 {
   "name": "JATE",
   "version": "1.0.0",
-  "description": "",
+  "description": "An application to edit text",
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
@@ -12,7 +12,7 @@
     "client": "cd client && npm start"
   },
   "keywords": [],
-  "author": "",
+  "author": "Asantowasso",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "^5.75.0"
   }
 }
