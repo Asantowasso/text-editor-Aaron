@@ -33,8 +33,7 @@ Link to github repo- https://github.com/Asantowasso/text-editor-Aaron
 
 ## Heroku
 
-Link to Heroku app-
-
+Link to Heroku app- https://hidden-inlet-47886.herokuapp.com/
 ## License
 
 Licensed under the MIT license
